@@ -1,38 +1,38 @@
 .occasions {
     padding-top: 47px;
-}
 
-.occasions__title {
-    padding-bottom: 50px;
-}
+    &__title {
+            padding-bottom: 50px;
+        }
 
-.occasions__list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    flex-basis: calc((100% - 60px)/3);
-}
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        flex-basis: calc((100% - 60px)/3);
+    }
 
-.occasions__text {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: center;
+    &__text {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-align: center;
+    
+    }
 
-}
+    &__section {
+        position: relative;
+    }
 
-.occasions__section {
-    position: relative;
-}
-
-.occasions__description {
-    position: absolute;
-    padding: 27px;
-    width: 370px;
-    bottom: 0;
-    background-color: rgba(47, 48, 58, 0.8);
+    &__description {
+        position: absolute;
+        padding: 27px;
+        width: 370px;
+        bottom: 0;
+        background-color: rgba(47, 48, 58, 0.8);
+    }
 }

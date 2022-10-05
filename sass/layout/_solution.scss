@@ -19,7 +19,7 @@
 }
 
 
-.solution-btn {
+.solution__btn {
     background-color: var(--accent-color);
     color: #FFFFFF;
     font-weight: 700;
@@ -41,7 +41,7 @@
 }
 
 
-.solution-div-btn {
+.solution__div-btn {
     display: flex;
     justify-content: center;
     transition: background-color var(--transition-dur-and-func);

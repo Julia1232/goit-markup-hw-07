@@ -32,14 +32,15 @@
     line-height: 1.2;
     text-decoration: none;
     letter-spacing: 0.02em;
-}
 
-.logo__logo-header{
-    color: var(--accent-color);
+    &__logo-header {
+            color: var(--accent-color);
+        }
+    
 }
 
 .menu__link {
-    color: var(--section-color-1);
+    color:#212121; 
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -51,6 +52,14 @@
     &:focus {
     color: var(--accent-color);
         }
+
+    &_current {
+    color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.9px;
+    letter-spacing: 0.02em;
+    }
 }
 
 
@@ -61,27 +70,6 @@
     color: var(--accent-color);
 }
 
-
-.menu__link{
-    color: #212121;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    transition: color var(--transition-dur-and-func);
-
-         &:hover{
-         color: var(--accent-color);
-     }
-}
-
-.menu__link_current {
-    color: var(--accent-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.9px;
-    letter-spacing: 0.02em;
-}
 
 .menu__line::after {
     display: block;

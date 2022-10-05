@@ -12,9 +12,25 @@
         text-decoration: none;
         font-style: normal;
     }
- 
-}
 
+    &-adress {
+        margin-top: 20px;
+
+        &__place {
+                color: #FFFFFF;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 1.7;
+                letter-spacing: 0.03em;
+                font-style: normal;
+                text-decoration: none;
+            }
+    }
+    &-contact {
+        margin-top: 9px;
+    }
+
+}
 .logo-footer {
        color: #FFFFFF;
    }
@@ -24,24 +40,6 @@ color: #2196F3;}
 
 .footer-container {
     display: flex;
-}
-
-.footer-adress {
-    margin-top: 20px;
-}
-
-.footer-adress__place {
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    font-style: normal;
-    text-decoration: none;
-}
-
-.footer-contact {
-    margin-top: 9px;
 }
 
 
