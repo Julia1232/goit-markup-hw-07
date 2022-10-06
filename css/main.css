@@ -281,12 +281,10 @@ textarea {
   padding-bottom: 25px;
   border-bottom: 1px solid #ECECEC;
 }
-
 .header.page1 {
   border-bottom: none;
 }
-
-.page-header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -301,20 +299,6 @@ textarea {
   display: flex;
   column-gap: 50px;
 }
-
-.logo {
-  color: var(--section-color-1);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-}
-.logo__logo-header {
-  color: var(--accent-color);
-}
-
 .menu__link {
   color: #212121;
   text-decoration: none;
@@ -333,6 +317,19 @@ textarea {
   font-size: 14px;
   line-height: 1.9px;
   letter-spacing: 0.02em;
+}
+
+.logo {
+  color: var(--section-color-1);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.logo__logo-header {
+  color: var(--accent-color);
 }
 
 .footer .mail:hover,
@@ -412,16 +409,13 @@ textarea {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
-.container__title {
+.solution__container {
   display: flex;
   justify-content: center;
 }
-
 .solution__title {
   width: 696px;
 }
-
 .solution__btn {
   background-color: var(--accent-color);
   color: #FFFFFF;
@@ -441,7 +435,6 @@ textarea {
 .solution__btn:hover, .solution__btn:focus {
   background-color: #188CE8;
 }
-
 .solution__div-btn {
   display: flex;
   justify-content: center;
