@@ -409,12 +409,10 @@ textarea {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.solution__container {
-  display: flex;
-  justify-content: center;
-}
 .solution__title {
   width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .solution__btn {
   background-color: var(--accent-color);
@@ -431,13 +429,13 @@ textarea {
   min-width: 216px;
   border: none;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .solution__btn:hover, .solution__btn:focus {
   background-color: #188CE8;
 }
 .solution__div-btn {
-  display: flex;
-  justify-content: center;
   transition: background-color var(--transition-dur-and-func);
 }
 

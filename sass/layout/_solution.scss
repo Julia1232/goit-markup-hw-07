@@ -7,13 +7,12 @@
     padding-top: 200px;
     padding-bottom: 200px;
 
-    &__container {
-            display: flex;
-            justify-content: center;
-        }
+   
 
     &__title {
         width: 696px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     &__btn {
@@ -31,6 +30,8 @@
         min-width: 216px;
         border: none;
         margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
     
         &:hover,
         &:focus {
@@ -38,8 +39,6 @@
         }}
 
         &__div-btn {
-            display: flex;
-            justify-content: center;
             transition: background-color var(--transition-dur-and-func);
         }
 }
