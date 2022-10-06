@@ -1,12 +1,11 @@
 .advantage {
     padding-bottom: 47px;
-    padding-top: 94px;
+    padding-top: 94px;}
 
-    &__list {
+.advantage-list{
             display: flex;
             column-gap: 30px;
             flex-basis: calc((100% - 90px)/4);
-        }
 
     &__title {
         color: var(--primary-text-color);

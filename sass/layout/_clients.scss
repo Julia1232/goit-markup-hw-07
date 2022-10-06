@@ -1,17 +1,17 @@
-.clients__list {
+.clients-list {
     display: flex;
     column-gap: 30px;
     flex-basis: calc((100% - 150px)/6);
     justify-content: center;
 }
 
-.clients__company {
+.clients-list__company {
     display: flex;
     justify-content: center;
    
 }
 
-.clients__item {
+.clients-list__item {
     padding: 16px 32px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -25,7 +25,7 @@
     }
 }
 
-.clients__icon {
+.clients-list__icon {
     transition: fill var(--transition-dur-and-func),
         filter var(--transition-dur-and-func);
 

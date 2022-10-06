@@ -95,7 +95,7 @@ h1 {
   letter-spacing: 0.06em;
 }
 
-h2 {
+.suptitle {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -443,12 +443,13 @@ textarea {
   padding-bottom: 47px;
   padding-top: 94px;
 }
-.advantage__list {
+
+.advantage-list {
   display: flex;
   column-gap: 30px;
   flex-basis: calc((100% - 90px) / 4);
 }
-.advantage__title {
+.advantage-list__title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -457,14 +458,14 @@ textarea {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.advantage__description {
+.advantage-list__description {
   color: var(--second-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.advantage__div {
+.advantage-list__div {
   padding: 25px 100px;
   background-color: #F5F4FA;
   margin-bottom: 30px;
@@ -476,13 +477,14 @@ textarea {
 .occasions__title {
   padding-bottom: 50px;
 }
-.occasions__list {
+
+.occasions-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
   flex-basis: calc((100% - 60px) / 3);
 }
-.occasions__text {
+.occasions-list__text {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 14px;
@@ -492,10 +494,10 @@ textarea {
   text-transform: uppercase;
   text-align: center;
 }
-.occasions__section {
+.occasions-list__section {
   position: relative;
 }
-.occasions__description {
+.occasions-list__description {
   position: absolute;
   padding: 27px;
   width: 370px;
@@ -506,24 +508,21 @@ textarea {
 .team {
   background-color: #F5F4FA;
 }
-.team__item {
-  background-color: #FFFFFF;
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.team__description {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.team__title {
-  margin-bottom: 50px;
-}
-.team__list {
+.team .team-list {
   display: flex;
   column-gap: 30px;
   flex-basis: calc((100% - 90px) / 4);
 }
-.team__member {
+.team .team-list__description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team .team-list__item {
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.team .team-list__member {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -532,7 +531,7 @@ textarea {
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
-.team__name {
+.team .team-list__name {
   color: var(--second-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -568,35 +567,35 @@ textarea {
   fill: #AFB1B8;
 }
 
-.clients__list {
+.clients-list {
   display: flex;
   column-gap: 30px;
   flex-basis: calc((100% - 150px) / 6);
   justify-content: center;
 }
 
-.clients__company {
+.clients-list__company {
   display: flex;
   justify-content: center;
 }
 
-.clients__item {
+.clients-list__item {
   padding: 16px 32px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   transition: border var(--transition-dur-and-func);
   fill: #AFB1B8;
 }
-.clients__item:hover, .clients__item:focus {
+.clients-list__item:hover, .clients-list__item:focus {
   border: 1px solid #2196F3;
   fill: #2196F3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.clients__icon {
+.clients-list__icon {
   transition: fill var(--transition-dur-and-func), filter var(--transition-dur-and-func);
 }
-.clients__icon:hover, .clients__icon:focus {
+.clients-list__icon:hover, .clients-list__icon:focus {
   fill: #2196F3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
